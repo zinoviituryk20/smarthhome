@@ -2,7 +2,7 @@
 
 namespace SmartHome.Device.Data.DB.Repository.Locations;
 
-internal interface ILocationsRepository
+public interface ILocationsRepository
 {
     Task<ICollection<Location>> GetAllAsync();
 

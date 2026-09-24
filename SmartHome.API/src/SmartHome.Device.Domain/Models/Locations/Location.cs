@@ -4,7 +4,7 @@ namespace SmartHome.Device.Domain.Models.Locations;
 
 public class Location
 {
-    public string Id { get; set; } = null!;
+    public string Id { get; set; } = string.Empty;
 
     public string Name { get; set; } = string.Empty;
 
